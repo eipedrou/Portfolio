@@ -8,7 +8,7 @@ const problemsList = [
 
 export default function Problems() {
     return (
-        <section className="py-32 px-6 md:px-12 lg:px-24 mx-auto max-w-7xl relative">
+        <section className="py-20 md:py-32 px-6 md:px-12 lg:px-24 mx-auto max-w-7xl relative">
             {/* Decorative top border glow */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-gradient-to-r from-transparent via-[var(--color-brand-border)] to-transparent opacity-50"></div>
 
@@ -26,12 +26,12 @@ export default function Problems() {
                             className="glass-card glass-card-hover group flex gap-8 items-start p-8 md:p-10 rounded-2xl relative overflow-hidden"
                         >
                             {/* Subtle accent line on hover */}
-                            <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-blue-500 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300"></div>
 
-                            <div className="text-blue-500/40 font-mono text-xl md:text-2xl mt-1 group-hover:text-blue-400 group-hover:text-glow transition-all duration-300">
+                            <div className="font-mono text-xl md:text-2xl mt-1 text-blue-400 text-glow lg:text-blue-500/40 lg:group-hover:text-blue-400 lg:group-hover:text-glow transition-all duration-300">
                                 0{index + 1}
                             </div>
-                            <p className="text-lg md:text-xl text-[var(--color-brand-text-muted)] group-hover:text-[var(--color-brand-text-main)] font-light leading-relaxed transition-colors duration-300">
+                            <p className="text-lg md:text-xl text-[var(--color-brand-text-main)] lg:text-[var(--color-brand-text-muted)] lg:group-hover:text-[var(--color-brand-text-main)] font-light leading-relaxed transition-colors duration-300">
                                 {problem}
                             </p>
                         </div>

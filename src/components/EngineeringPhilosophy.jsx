@@ -9,7 +9,7 @@ const philosophies = [
 
 export default function EngineeringPhilosophy() {
     return (
-        <section className="py-40 px-6 md:px-12 lg:px-24 relative overflow-hidden bg-[#0A101C]">
+        <section className="py-20 md:py-40 px-6 md:px-12 lg:px-24 relative overflow-hidden bg-[#0A101C]">
             {/* Heavy glow background for dramatic impact */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[600px] bg-blue-600/5 blur-[150px] pointer-events-none mix-blend-screen"></div>
 
@@ -36,7 +36,7 @@ export default function EngineeringPhilosophy() {
                             viewport={{ once: true, margin: "-100px" }}
                             transition={{ duration: 0.8, delay: index * 0.15 }}
                             key={index}
-                            className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight text-white/90 hover:text-white leading-[1.1] transition-colors duration-500 cursor-default"
+                            className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight text-white/90 hover:text-white leading-[1.1] transition-colors duration-500 cursor-default"
                             style={{
                                 textShadow: index === 0 ? '0 0 40px rgba(59, 130, 246, 0.2)' : 'none',
                             }}

@@ -25,7 +25,7 @@ export default function Approach() {
     const [openIndex, setOpenIndex] = useState(0);
 
     return (
-        <section className="py-32 px-6 md:px-12 lg:px-24 relative overflow-hidden">
+        <section className="py-20 md:py-32 px-6 md:px-12 lg:px-24 relative overflow-hidden">
             <div className="absolute inset-0 bg-[#0A101C] z-0"></div>
 
             {/* Top and bottom subtle gradients borders */}
@@ -34,7 +34,7 @@ export default function Approach() {
 
             <div className="mx-auto max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-32 items-center relative z-10">
                 <div>
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-8 leading-tight">
+                    <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-8 leading-tight">
                         Minha <br className="hidden lg:block" /> abordagem.
                     </h2>
                     <p className="text-xl text-[var(--color-brand-text-muted)] leading-relaxed mb-8 font-light max-w-xl">

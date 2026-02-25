@@ -41,12 +41,12 @@ const projects = [
 
 export default function SelectedWork() {
     return (
-        <section id="projetos" className="py-32 px-6 md:px-12 lg:px-24 mx-auto max-w-7xl relative">
+        <section id="projetos" className="py-20 md:py-32 px-6 md:px-12 lg:px-24 mx-auto max-w-7xl relative">
             <div className="absolute left-0 top-0 w-full h-[500px] bg-blue-900/5 blur-[150px] pointer-events-none"></div>
 
             <div className="mb-20 md:mb-32 flex flex-col md:flex-row md:items-end justify-between gap-8 relative z-10">
                 <div>
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6">
+                    <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6">
                         Projetos Selecionados
                     </h2>
                     <p className="text-xl text-[var(--color-brand-text-muted)] max-w-2xl font-light leading-relaxed">
@@ -78,9 +78,9 @@ export default function SelectedWork() {
 
                         <div className="lg:col-span-5 flex flex-col">
                             <a href={project.link} target="_blank" rel="noopener noreferrer" className="inline-block group/link w-fit">
-                                <h3 className="text-3xl md:text-4xl font-bold text-white mb-8 border-b border-[var(--color-brand-border)] pb-6 group-hover/link:text-blue-400 transition-colors flex items-center gap-4">
+                                <h3 className="text-2xl md:text-4xl font-bold text-white mb-8 border-b border-[var(--color-brand-border)] pb-6 group-hover/link:text-blue-400 transition-colors flex items-center gap-4">
                                     {project.name}
-                                    <span className="text-2xl opacity-0 -translate-x-4 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all duration-300 text-blue-500 font-light">
+                                    <span className="text-xl md:text-2xl opacity-0 -translate-x-4 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all duration-300 text-blue-500 font-light">
                                         &rarr;
                                     </span>
                                 </h3>
@@ -89,15 +89,15 @@ export default function SelectedWork() {
                             <div className="space-y-8 mt-4">
                                 <div className="group/item">
                                     <h4 className="text-xs font-semibold text-blue-500/70 uppercase tracking-[0.2em] mb-3 group-hover/item:text-blue-400 transition-colors">Problema</h4>
-                                    <p className="text-[var(--color-brand-text-muted)] leading-relaxed font-light text-lg">{project.problem}</p>
+                                    <p className="text-[var(--color-brand-text-muted)] leading-relaxed font-light text-base md:text-lg">{project.problem}</p>
                                 </div>
                                 <div className="group/item">
                                     <h4 className="text-xs font-semibold text-blue-500/70 uppercase tracking-[0.2em] mb-3 group-hover/item:text-blue-400 transition-colors">Solução</h4>
-                                    <p className="text-[var(--color-brand-text-muted)] leading-relaxed font-light text-lg">{project.solution}</p>
+                                    <p className="text-[var(--color-brand-text-muted)] leading-relaxed font-light text-base md:text-lg">{project.solution}</p>
                                 </div>
                                 <div className="group/item">
                                     <h4 className="text-xs font-semibold text-blue-500/70 uppercase tracking-[0.2em] mb-3 group-hover/item:text-blue-400 transition-colors">Resultado</h4>
-                                    <p className="text-white leading-relaxed font-normal text-lg">{project.result}</p>
+                                    <p className="text-white leading-relaxed font-normal text-base md:text-lg">{project.result}</p>
                                 </div>
                             </div>
                         </div>

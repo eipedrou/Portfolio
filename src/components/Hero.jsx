@@ -19,7 +19,7 @@ export default function Hero() {
                     transition={{ duration: 0.8 }}
                     className="flex flex-col items-center lg:items-start text-center lg:text-left lg:col-span-7 pb-8 lg:pb-0"
                 >
-                    <h1 className="text-5xl md:text-6xl lg:text-[5rem] font-bold tracking-tight mb-6 leading-[1.1] text-gradient text-glow">
+                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[5rem] font-bold tracking-tight mb-6 leading-[1.1] text-gradient text-glow">
                         Eu desenho sistemas <br className="hidden md:block" /> que <span className="text-gradient-blue">eliminam complexidade.</span>
                     </h1>
 
@@ -61,7 +61,7 @@ export default function Hero() {
                     transition={{ duration: 1, delay: 0.3 }}
                     className="relative flex justify-center lg:justify-end lg:col-span-5"
                 >
-                    <div className="relative group w-[280px] h-[280px] md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] mx-auto animate-float">
+                    <div className="relative group w-[240px] h-[240px] sm:w-[280px] sm:h-[280px] md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] mx-auto animate-float">
 
                         {/* Decorative Rings / Borders */}
                         <div className="absolute inset-0 rounded-full border border-blue-500/20 scale-105 group-hover:scale-110 group-hover:border-blue-500/40 transition-all duration-700 ease-in-out pointer-events-none"></div>

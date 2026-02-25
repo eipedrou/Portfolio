@@ -5,7 +5,7 @@ const whatsappLink = "https://wa.me/5574991223081?text=Ol%C3%A1%20Pedro%2C%20vim
 
 export default function About() {
     return (
-        <section className="pt-32 pb-12 px-6 md:px-12 lg:px-24 mx-auto max-w-7xl relative">
+        <section className="pt-20 md:pt-32 pb-12 px-6 md:px-12 lg:px-24 mx-auto max-w-7xl relative">
             {/* Decorative top border */}
             <div className="absolute top-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[var(--color-brand-border)] to-transparent"></div>
 
@@ -16,13 +16,13 @@ export default function About() {
                     viewport={{ once: true, margin: "-100px" }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold tracking-tight text-white mb-10">
+                    <h2 className="text-3xl md:text-5xl lg:text-5xl font-bold tracking-tight text-white mb-8 md:mb-10">
                         A visão por trás <br />dos sistemas.
                     </h2>
-                    <p className="text-xl md:text-2xl text-[var(--color-brand-text-muted)] leading-relaxed font-light mb-6">
+                    <p className="text-lg md:text-xl md:text-2xl text-[var(--color-brand-text-muted)] leading-relaxed font-light mb-6">
                         Atualmente atuo como <strong className="text-white font-medium">Senior Bubble Developer</strong> na Harpia Digital. Em aproximadamente um ano, migrei de pleno para sênior focando onde a maioria dos desenvolvedores ignora: as fundações do software.
                     </p>
-                    <p className="text-lg text-[var(--color-brand-text-muted)] leading-relaxed font-light">
+                    <p className="text-base md:text-lg text-[var(--color-brand-text-muted)] leading-relaxed font-light">
                         Trabalho em múltiplos projetos SaaS e sistemas internos de alta criticidade. Minha rotina não é apenas construir telas, é definir a arquitetura, garantir integridade dos dados, otimizar performance de ponta a ponta e garantir que o app não quebre ao escalar.
                     </p>
                 </motion.div>
@@ -63,7 +63,7 @@ export default function About() {
                 <div className="absolute inset-0 bg-[#0A101C]/80 backdrop-blur-md z-0 border border-[var(--color-brand-border)] rounded-3xl"></div>
 
                 <div className="relative z-10 text-center py-16 px-6 md:p-24 lg:p-32">
-                    <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[4rem] font-bold tracking-tight text-white mb-8 md:mb-10 max-w-4xl mx-auto leading-[1.1] md:leading-[1.1] text-glow">
+                    <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-[4rem] font-bold tracking-tight text-white mb-8 md:mb-10 max-w-4xl mx-auto leading-[1.1] md:leading-[1.1] text-glow">
                         Tem um problema complexo? <br className="hidden md:block" /><span className="text-gradient-blue">Vamos desenhar a solução.</span>
                     </h2>
 
