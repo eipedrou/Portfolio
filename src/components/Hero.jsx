@@ -19,7 +19,7 @@ export default function Hero() {
                     transition={{ duration: 0.8 }}
                     className="flex flex-col items-center lg:items-start text-center lg:text-left lg:col-span-7 pb-8 lg:pb-0"
                 >
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[5rem] font-bold tracking-tight mb-6 leading-[1.1] text-gradient text-glow">
+                    <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-[5rem] font-bold tracking-tight mb-6 leading-[1.15] text-gradient text-glow">
                         Eu desenho sistemas <br className="hidden md:block" /> que <span className="text-gradient-blue">eliminam complexidade.</span>
                     </h1>
 
@@ -38,18 +38,18 @@ export default function Hero() {
                         transition={{ duration: 0.8, delay: 0.4 }}
                         className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 md:gap-6"
                     >
-                        <a href="#projetos" className="relative group overflow-hidden rounded-full p-[1px]">
+                        <a href="#projetos" className="relative group overflow-hidden rounded-full p-[1px] w-full sm:w-auto">
                             <span className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-400 opacity-70 group-hover:opacity-100 transition-opacity duration-500"></span>
-                            <div className="relative bg-[#030610]/80 backdrop-blur-md px-6 md:px-8 py-3 md:py-4 rounded-full flex items-center justify-center transition-all duration-300 group-hover:bg-transparent">
+                            <div className="relative bg-[#030610]/80 backdrop-blur-md px-6 md:px-8 py-3 md:py-4 rounded-full flex items-center justify-center transition-all duration-300 group-hover:bg-transparent w-full">
                                 <span className="font-semibold text-base md:text-lg text-white group-hover:text-white transition-colors">
                                     Ver projetos
                                 </span>
                             </div>
                         </a>
 
-                        <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="group px-6 md:px-8 py-3 md:py-4 font-semibold text-base md:text-lg text-[var(--color-brand-text-muted)] hover:text-white transition-all duration-300 flex items-center">
+                        <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="group px-6 md:px-8 py-3 md:py-4 font-semibold text-base md:text-lg text-[var(--color-brand-text-muted)] hover:text-white transition-all duration-300 flex items-center justify-center rounded-full border border-[var(--color-brand-border)] hover:border-blue-500/30 hover:bg-white/5 w-full sm:w-auto mt-2 sm:mt-0">
                             Chamar no WhatsApp
-                            <span className="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-2 transition-all duration-300">&rarr;</span>
+                            <span className="hidden sm:inline-block opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-2 transition-all duration-300 text-blue-400">&rarr;</span>
                         </a>
                     </motion.div>
                 </motion.div>
