@@ -59,6 +59,11 @@
   }
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   background-color: var(--color-brand-bg);
   color: var(--color-brand-text-main);
